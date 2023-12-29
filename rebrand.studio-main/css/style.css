@@ -1,0 +1,621 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2C2C2C;
+  font-family: "Rethink Sans", sans-serif;
+  color: #fff;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  padding: 15px;
+  border-bottom: 1px solid #2E2F35;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "img nav boton";
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.menu img {
+  width: 20rem;
+  grid-area: img;
+}
+.menu nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: 10px;
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 12px;
+}
+.menu li {
+  margin: 10px;
+}
+.menu li a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+.menu li a:hover {
+  color: #be9bff;
+  text-decoration: none;
+  margin: 10px;
+  transition: 0.2s;
+}
+
+.menu-icon img{
+  width: 30px;
+  height: 30px;
+}
+
+.menu-icon, #check{
+  display: none;
+}
+
+@media (max-width:768px){
+  .navbar ul{
+    display: block;
+    position: absolute;
+    left: 8px;
+    margin-left: 0;
+
+  }
+
+  .navbar ul li {
+    
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    margin: 0; 
+  }
+
+  .boton-contacto {
+   display: none;
+  }
+
+  #check:checked ～ ul {
+    left: 0;
+
+  }
+
+  .header{
+    width: 50%;
+    display: none;
+  }
+
+  .menu img {
+    width: 20rem;
+}
+
+.imagen img {
+  width: 250px;
+  border-radius: 20px;
+-webkit-box-shadow: 16px 15px 19px 5px rgba(106, 0, 255, 0.25);
+-moz-box-shadow: 16px 15px 19px 5px rgba(106, 0, 255, 0.25);
+box-shadow: 16px 15px 19px 5px rgba(106, 0, 255, 0.25);
+}
+
+}
+
+.boton-contacto {
+  background-color: #be9bff;
+  padding: 15px;
+  border-radius: 30px;
+  grid-area: boton;
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 10px;
+  color: #fff;
+}
+.boton-contacto:hover {
+  color: #000;
+  background-image: linear-gradient(135deg, #ffd1ff 0, #f4bfff 16.67%, #dbadff 33.33%, #bd9bff 50%, #998bfb 66.67%, #6c7df8 83.33%, #1873f5 100%);
+  transition: 1s;
+  -webkit-box-shadow: 0px 0px 30px -6px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 0px 0px 30px -6px rgba(255, 255, 255, 0.75);
+  box-shadow: 0px 0px 30px -6px rgba(255, 255, 255, 0.75);
+}
+
+/*SECCION 1*/
+.contenedor1 {
+  margin: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+  align-items: center;
+}
+
+.imagen img {
+  width: 500px;
+  border-radius: 20px;
+  -webkit-box-shadow: 16px 15px 19px 5px rgba(106, 0, 255, 0.25);
+  -moz-box-shadow: 16px 15px 19px 5px rgba(106, 0, 255, 0.25);
+  box-shadow: 16px 15px 19px 5px rgba(106, 0, 255, 0.25);
+}
+
+.contenedor1 h1 {
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 70px;
+}
+.contenedor1 h4 {
+  font-size: 25px;
+  font-family: "Rethink Sans", sans-serif;
+  margin-bottom: 10px;
+}
+.contenedor1 p {
+  font-family: "Rethink Sans", sans-serif;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.botoncontacto2 {
+  padding: 20px;
+  background-color: #be9bff;
+  border-radius: 50px;
+  font-family: "Rethink Sans", sans-serif;
+  color: #fff;
+}
+.botoncontacto2:hover {
+  background-color: #c3eb63;
+  -webkit-box-shadow: 0px 0px 30px -6px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 0px 0px 30px -6px rgba(255, 255, 255, 0.75);
+  box-shadow: 0px 0px 30px -6px rgba(255, 255, 255, 0.75);
+  transition: 0.5s;
+}
+
+/*SECCION 2*/
+.contenedor2 {
+  margin: 100px;
+}
+.contenedor2 h2 {
+  text-align: center;
+  font-size: 100px;
+}
+.contenedor2 p {
+  text-align: center;
+  color: #ffffff;
+}
+
+.boxespadre {
+  padding: 20px;
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+}
+
+.box1 {
+  margin: 15px 50px;
+  padding: 20px;
+  width: 350px;
+  font-size: 20px;
+  font-family: "Rethink Sans", sans-serif;
+  background-color: #be9bff;
+  border-radius: 19px;
+  align-items: center;
+  -webkit-box-shadow: inset 0px 0px 72px -43px rgba(0, 0, 0, 0.64);
+  -moz-box-shadow: inset 0px 0px 72px -43px rgba(0, 0, 0, 0.64);
+  box-shadow: inset 0px 0px 72px -43px rgba(0, 0, 0, 0.64);
+}
+.box1:hover {
+  transition: 0.5s;
+  -webkit-box-shadow: inset 0px 0px 72px 9px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: inset 0px 0px 72px 9px rgba(0, 0, 0, 0.69);
+  box-shadow: inset 0px 0px 72px 9px rgba(0, 0, 0, 0.69);
+}
+.box1 h4 {
+  padding: 15px;
+  text-align: left;
+  margin: auto;
+  color: #c3eb63;
+}
+.box1 p {
+  font-family: "Rethink Sans", sans-serif;
+  color: #ffffff;
+  margin: 5px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.box2 {
+  margin: 15px 50px;
+  padding: 20px;
+  width: 350px;
+  height: 200px;
+  font-size: 20px;
+  background-color: #be9bff;
+  font-family: "Rethink Sans", sans-serif;
+  border-radius: 19px;
+  -webkit-box-shadow: inset 0px 0px 72px -43px rgba(0, 0, 0, 0.64);
+  -moz-box-shadow: inset 0px 0px 72px -43px rgba(0, 0, 0, 0.64);
+  box-shadow: inset 0px 0px 72px -43px rgba(0, 0, 0, 0.64);
+}
+.box2:hover {
+  transition: 0.5s;
+  -webkit-box-shadow: inset 0px 0px 72px 9px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: inset 0px 0px 72px 9px rgba(0, 0, 0, 0.69);
+  box-shadow: inset 0px 0px 72px 9px rgba(0, 0, 0, 0.69);
+}
+.box2 h4 {
+  color: #c3eb63;
+  padding: 15px;
+  text-align: left;
+  margin: auto;
+}
+.box2 p {
+  font-family: "Rethink Sans", sans-serif;
+  color: #ffffff;
+  margin: 5px;
+  text-align: left;
+  font-size: 15px;
+}
+
+/*SECCION 3*/
+.contenedor3 {
+  margin: 100px;
+}
+.contenedor3 h2 {
+  font-size: 45px;
+  margin-left: 25px;
+}
+
+.cajaspadres {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 4px;
+  grid-row-gap: 4px;
+}
+
+.uno {
+  background-color: #be9bff;
+  border-radius: 20px;
+  padding: 15px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  -webkit-box-shadow: 0px 0px 72px 9px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 0px 0px 72px 9px rgba(0, 0, 0, 0.69);
+  box-shadow: 0px 0px 72px 9px rgba(0, 0, 0, 0.69);
+}
+
+.dos {
+  background-color: #c3eb63;
+  border-radius: 20px;
+  padding: 15px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  -webkit-box-shadow: 0px 0px 72px 9px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 0px 0px 72px 9px rgba(0, 0, 0, 0.69);
+  box-shadow: 0px 0px 72px 9px rgba(0, 0, 0, 0.69);
+}
+
+.tres {
+  background-color: #c3eb63;
+  border-radius: 20px;
+  padding: 15px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  -webkit-box-shadow: 0px 0px 72px 9px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 0px 0px 72px 9px rgba(0, 0, 0, 0.69);
+  box-shadow: 0px 0px 72px 9px rgba(0, 0, 0, 0.69);
+}
+
+.cuatro {
+  background-color: #be9bff;
+  border-radius: 20px;
+  padding: 15px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  -webkit-box-shadow: 0px 0px 72px 9px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 0px 0px 72px 9px rgba(0, 0, 0, 0.69);
+  box-shadow: 0px 0px 72px 9px rgba(0, 0, 0, 0.69);
+}
+
+.cajaspadres h4 {
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 70px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.cajaspadres p {
+  color: #ffffff;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.footer {
+  margin: 100px 100px 0px 100px;
+  padding: 20px;
+  background-color: #c3eb63;
+  width: 80%;
+  height: 500px;
+  border-radius: 50px 50px 0px 0px;
+  justify-content: center;
+}
+.footer h2 {
+  color: #ffffff;
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+.footer h3 {
+  margin: 20px;
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+.footer h4 {
+  color: #ffffff;
+  margin: 20px;
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #be9bff;
+}
+
+.botoncontacto {
+  background-color: #be9bff;
+  border-radius: 30px;
+  padding: 20px;
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Rethink Sans", sans-serif;
+  color: #fff;
+}
+
+.iconosrrss {
+  width: 50px;
+  height: 20px;
+  display: flex;
+  margin: 0px auto;
+  justify-content: center;
+}
+
+.footer p {
+  display: flex;
+  margin: 100px auto;
+  justify-content: center;
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.card {
+  margin: 10px;
+}
+
+.btn-primary {
+  background-color: #be9bff;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #6a36cb;
+  border: none;
+  color: #fff;
+}
+
+.titulo h1 {
+  margin: 100px;
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 30px;
+}
+
+.cards {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  color: #000;
+}
+.card a {
+  color: #c3eb63;
+}
+.card a:hover {
+  color: #000;
+  transition: 0.5s;
+}
+
+.titulo h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Rethink Sans", Bold, sans-serif;
+}
+
+.card-group {
+  margin: 50px;
+}
+
+.titulopremades h1 {
+  margin-left: 100px;
+  margin-top: 50px;
+  color: #fff;
+  font-size: 50px;
+  font-family: "Rethink Sans", sans-serif;
+}
+.titulopremades h2 {
+  margin-left: 100px;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Rethink Sans", sans-serif;
+}
+.titulopremades h3 {
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Rethink Sans", sans-serif;
+}
+
+.servicios {
+  margin: 100px;
+  margin-bottom: 5px;
+}
+.servicios h1 {
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 50px;
+  margin-bottom: 20px;
+  display: flex;
+}
+.servicios h2 {
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 30px;
+  margin: 15px;
+}
+.servicios .p {
+  font-family: "Rethink Sans", sans-serif;
+}
+
+.serviciouno, .serviciodos, .serviciotres {
+  font-family: "Rethink Sans", sans-serif;
+  background-color: #be9bff;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.serviciouno .p, .serviciodos .p, .serviciotres .p {
+  font-family: "Rethink Sans", sans-serif;
+}
+
+.botoncontacto3 {
+  background-color: #c3eb63;
+  border-radius: 20px;
+  margin-left: 400px;
+  padding: 10px;
+  font-family: "Rethink Sans", sans-serif;
+  color: #be9bff;
+}
+.botoncontacto3:hover {
+  background-color: #ffffff;
+  color: #c3eb63;
+  -webkit-box-shadow: 0px 0px 30px -6px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 0px 0px 30px -6px rgba(255, 255, 255, 0.75);
+  box-shadow: 0px 0px 30px -6px rgba(255, 255, 255, 0.75);
+  transition: 0.5s;
+}
+
+.contact_form {
+  width: 460px;
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #fbfbfb;
+  padding-left: 30px;
+}
+
+input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #be9bff;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  background-color: #fbfbfb;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #be9bff;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+label {
+  display: block;
+  float: center;
+}
+
+button {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: #be9bff;
+  border-color: #be9bff;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  cursor: pointer;
+}
+button p {
+  color: #fff;
+}
+
+span {
+  color: #97d848;
+}
+
+.aviso {
+  font-size: 13px;
+  color: #0e0e0e;
+}
+
+h1 {
+  font-size: 39px;
+  text-align: letf;
+  padding-bottom: 20px;
+  color: #be9bff;
+}
+
+h3 {
+  font-size: 16px;
+  padding-bottom: 30px;
+  color: #0e0e0e;
+}
+
+p {
+  font-size: 14px;
+  color: #0e0e0e;
+}
+
+::-webkit-input-placeholder, ::-webkit-textarea-placeholder {
+  color: #a8a8a8;
+}
+
+.formulario input:focus, .formulario textarea:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+
+
+
+

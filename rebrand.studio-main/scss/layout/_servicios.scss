@@ -1,0 +1,58 @@
+.servicios {
+    margin: 100px;
+    margin-bottom: 5px;
+  
+    h1 {
+      font-family: 'Rethink Sans', sans-serif;
+      font-size: 50px;
+      margin-bottom: 20px;
+      display: flex;
+    }
+
+  
+    h2 {
+      font-family: 'Rethink Sans', sans-serif;
+      font-size: 30px;
+      margin: 15px;
+    }
+
+    .p {
+      font-family: 'Rethink Sans', sans-serif;
+    }
+
+
+  }
+  
+  .serviciouno, .serviciodos, .serviciotres {
+    font-family: 'Rethink Sans', sans-serif;
+    background-color: #be9bff;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+    .p {
+      font-family: 'Rethink Sans', sans-serif;
+    }
+
+  }
+  
+  .botoncontacto3 {
+    background-color: #c3eb63;
+    border-radius: 20px;
+    margin-left: 400px;
+    padding: 10px;
+    font-family: 'Rethink Sans', sans-serif;
+    color: #be9bff;
+
+          &:hover {
+      background-color: #ffffff;
+      color: #c3eb63;
+      -webkit-box-shadow: 0px 0px 30px -6px rgba(255, 255, 255, 0.75);
+      -moz-box-shadow: 0px 0px 30px -6px rgba(255, 255, 255, 0.75);
+      box-shadow: 0px 0px 30px -6px rgba(255, 255, 255, 0.75);
+      transition: 0.5s;
+
+    }
+  }

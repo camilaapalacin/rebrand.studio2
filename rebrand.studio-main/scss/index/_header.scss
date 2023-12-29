@@ -1,0 +1,65 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu {
+    padding: 15px;
+    border-bottom: 1px solid #2E2F35;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "img nav boton";
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+  
+    img {
+      width: 20rem;
+      grid-area: img;
+    }
+  
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      margin: 10px;
+      font-family: 'Rethink Sans', sans-serif;
+      font-size: 12px;
+    }
+  
+    li {
+      margin: 10px;
+  
+      a {
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+  
+        &:hover {
+          color: #be9bff;
+          text-decoration: none;
+          margin: 10px;
+          transition: 0.2s;
+        }
+      }
+    }
+  }
+  
+  .boton-contacto {
+    background-color: #be9bff;
+    padding: 15px;
+    border-radius: 30px;
+    grid-area: boton;
+    font-family: 'Rethink Sans', sans-serif;
+    font-size: 10px;
+    color: #fff;
+  
+    &:hover {
+      color: #000;
+      background-image: linear-gradient(135deg, #ffd1ff 0, #f4bfff 16.67%, #dbadff 33.33%, #bd9bff 50%, #998bfb 66.67%, #6c7df8 83.33%, #1873f5 100%);
+      transition: 1s;
+      -webkit-box-shadow: 0px 0px 30px -6px rgba(255, 255, 255, 0.75);
+      -moz-box-shadow: 0px 0px 30px -6px rgba(255, 255, 255, 0.75);
+      box-shadow: 0px 0px 30px -6px rgba(255, 255, 255, 0.75);
+    }
+  }

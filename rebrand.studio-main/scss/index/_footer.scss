@@ -1,0 +1,63 @@
+.footer {
+    margin: 100px 100px 0px 100px;
+    padding: 20px;
+    background-color: #c3eb63;
+    width: 80%;
+    height: 500px;
+    border-radius: 50px 50px 0px 0px;
+    justify-content: center;
+  
+    h2 {
+      color: #ffffff;
+      font-family: 'Rethink Sans', sans-serif;
+      font-size: 50px;
+      text-align: center;
+    }
+  
+    h3 {
+      margin: 20px;
+      font-family: 'Rethink Sans', sans-serif;
+      font-size: 20px;
+      text-align: center;
+      color: #ffffff;
+    }
+  
+    h4 {
+      color: #ffffff;
+      margin: 20px;
+      font-family: 'Rethink Sans', sans-serif;
+      font-size: 20px;
+      text-align: center;
+      color: #be9bff;
+    }
+  }
+  
+  .botoncontacto {
+    background-color: #be9bff;
+    border-radius: 30px;
+    padding: 20px;
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Rethink Sans', sans-serif;
+    color: #fff;
+  }
+  
+  .iconosrrss {
+    width: 50px;
+    height: 20px;
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+  }
+  
+  .footer p {
+    display: flex;
+    margin: 100px auto;
+    justify-content: center;
+    font-family: 'Rethink Sans', sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+  }
+  

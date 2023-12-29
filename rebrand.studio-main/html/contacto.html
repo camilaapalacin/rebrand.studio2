@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO | REBRAND.STUDIO</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400;0,500;0,800;1,400;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="menu">
+    <a href="/index.html"><img src="/images/logo.png" alt="logotipo del sitio"></a>
+            <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="/html/servicios.html">Servicios</a></li>
+                <li><a href="/html/portfolio.html">Portfolio</a></li>
+                <li><a href="/html/premades.html">Premades</a></li>
+                <li><a href="/html/blog.html">Blog</a></li>
+                <li><a href="/html/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="boton-contacto">Contactanos!</a>
+    </section>
+    <div class="contact_form">
+      <div class="formulario">      
+        <h1>CONTACTANOS!</h1>
+            <form action="submeter-formulario.php" method="post">       
+            <p>
+            <label for="nombre" class="colocar_nombre">Nombre
+            <span class="obligatorio">*</span>
+            </label>
+            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Nombre">
+            </p>
+                
+            <p>
+            <label for="email" class="colocar_email">Email
+            <span class="obligatorio">*</span>
+            </label>
+            <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Email">
+            </p>
+              
+            <p>
+            <label for="telefone" class="colocar_telefono">Teléfono
+            </label>
+            <input type="tel" name="introducir_telefono" id="telefono" placeholder="Teléfono">
+            </p>        
+            
+            <p>
+            <label for="mensaje" class="colocar_mensaje">Mensaje
+            <span class="obligatorio">*</span>
+            </label>                     
+             <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+             </p>                    
+                
+            <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+  
+            <p class="aviso">
+                    <span class="obligatorio"> * </span>los campos son obligatorios.
+            </p>          
+              
+            </form>
+      </div>  
+    </div>
+  
+
+    <footer class="footer"> <!-- Seccion 6 -->
+
+      <h2>REBRAND.STUDIO</h2>
+      <h3>¡Trabajemos juntos!</h3>
+      <a class="botoncontacto" href="/contacto.html">CONTACTANOS!</a>
+      <h4>Seguinos en nuestras redes</h4>
+      <div class="iconosrrss">
+      <img src="/images/instagram.png" alt="RRSS"/>
+      <img src="/images/twitter.png" alt="RRSS"/>
+      <img src="/images/pinterest.png" alt="RRSS"/>
+      </div>
+      <p>Todos los derechos reservados. @2023</p>
+  
+
+  </footer>
+</body>
+</html>

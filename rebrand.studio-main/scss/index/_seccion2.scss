@@ -1,0 +1,96 @@
+ /*SECCION 2*/
+
+ .contenedor2 {
+    margin: 100px;
+  
+    h2 {
+      text-align: center;
+      font-size: 100px;
+    }
+  
+    p {
+      text-align: center;
+      color: #ffffff;
+    }
+  }
+  
+  .boxespadre {
+    padding: 20px;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box1 {
+    margin: 15px 50px;
+    padding: 20px;
+    width: 350px;
+    font-size: 20px;
+    font-family: 'Rethink Sans', sans-serif;
+    background-color: #be9bff;
+    border-radius: 19px;
+    align-items: center;
+    -webkit-box-shadow: inset 0px 0px 72px -43px rgba(0,0,0,0.64);
+    -moz-box-shadow: inset 0px 0px 72px -43px rgba(0,0,0,0.64);
+    box-shadow: inset 0px 0px 72px -43px rgba(0,0,0,0.64);
+
+    &:hover {
+      transition: 0.5s;
+      -webkit-box-shadow: inset 0px 0px 72px 9px rgba(0,0,0,0.69);
+      -moz-box-shadow: inset 0px 0px 72px 9px rgba(0,0,0,0.69);
+      box-shadow: inset 0px 0px 72px 9px rgba(0,0,0,0.69);
+      
+}
+
+  
+    h4 {
+      padding: 15px;
+      text-align: left;
+      margin: auto;
+      color: #c3eb63;
+    }
+  
+    p {
+      font-family: 'Rethink Sans', sans-serif;
+      color: #ffffff;
+      margin: 5px;
+      text-align: left;
+      font-size: 15px;
+    }
+  }
+  
+  .box2 {
+    margin: 15px 50px;
+    padding: 20px;
+    width: 350px;
+    height: 200px;
+    font-size: 20px;
+    background-color: #be9bff;
+    font-family: 'Rethink Sans', sans-serif;
+    border-radius: 19px;
+    -webkit-box-shadow: inset 0px 0px 72px -43px rgba(0,0,0,0.64);
+    -moz-box-shadow: inset 0px 0px 72px -43px rgba(0,0,0,0.64);
+    box-shadow: inset 0px 0px 72px -43px rgba(0,0,0,0.64);
+
+    &:hover {
+      transition: 0.5s;
+      -webkit-box-shadow: inset 0px 0px 72px 9px rgba(0,0,0,0.69);
+      -moz-box-shadow: inset 0px 0px 72px 9px rgba(0,0,0,0.69);
+      box-shadow: inset 0px 0px 72px 9px rgba(0,0,0,0.69);
+  }
+  
+    h4 {
+      color: #c3eb63;
+      padding: 15px;
+      text-align: left;
+      margin: auto;
+    }
+  
+    p {
+      font-family: 'Rethink Sans', sans-serif;
+      color: #ffffff;
+      margin: 5px;
+      text-align: left;
+      font-size: 15px;
+    }
+  }

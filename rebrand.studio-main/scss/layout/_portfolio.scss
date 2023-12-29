@@ -1,0 +1,31 @@
+.cards {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    color: #000;
+  
+    a {
+      color: #c3eb63;
+  
+      &:hover {
+        color: #000;
+        transition: 0.5s;
+      }
+    }
+  }
+  
+  .titulo { 
+  h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Rethink Sans', Bold, sans-serif;
+  }
+  
+   }
+  
